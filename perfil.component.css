@@ -1,0 +1,23 @@
+.ck { padding: 14px; flex: 1; display: flex; flex-direction: column; gap: 18px; }
+.tt { font-size: 1.6rem; margin: 8px 0 10px; color: #b5b6e4; border-left: 4px solid #4f43ae; padding-left: 10px; }
+.sc { background: #211a21; border: 2px solid #908a99; padding: 18px; margin-bottom: 14px; }
+.sc h2 { font-size: 1.3rem; margin-bottom: 14px; color: #b5b6e4; }
+.fg { margin-bottom: 14px; }
+.fg label { font-weight: 700; display: block; margin-bottom: 6px; color: #908a99; font-size: 0.9rem; }
+.fg input, .fg select { width: 100%; padding: 10px; border: 2px solid #908a99; background: #211a21; color: #b5b6e4; font-size: 0.9rem; }
+.fg input:focus, .fg select:focus { outline: none; border-color: #4f43ae; }
+.fr { display: flex; gap: 10px; flex-wrap: wrap; }
+.fr .fg { flex: 1; min-width: 80px; }
+.bc { background: #4f43ae; color: #cec9cc; border: none; padding: 8px 14px; cursor: pointer; font-weight: 700; font-size: 0.8rem; transition: all 0.2s; }
+.bc:hover { background: #b5b6e4; color: #211a21; }
+.po { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 14px; }
+.po label { display: flex; align-items: center; gap: 6px; font-weight: 600; color: #b5b6e4; font-size: 0.9rem; }
+.rp { background: #211a21; border: 2px solid #908a99; padding: 18px; }
+.ri { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 0.85rem; color: #908a99; }
+.rt { margin-top: 14px; padding-top: 14px; border-top: 2px solid #4f43ae; }
+.rt .ln { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 0.85rem; color: #908a99; }
+.rt .fb { font-weight: 800; font-size: 1.1rem; margin-top: 10px; padding-top: 10px; border-top: 2px solid #4f43ae; color: #b5b6e4; }
+.bf { background: #4f43ae; color: #cec9cc; border: none; padding: 14px; width: 100%; font-weight: 800; font-size: 0.9rem; cursor: pointer; margin-top: 16px; text-transform: uppercase; letter-spacing: 1px; transition: all 0.2s; }
+.bf:hover { background: #b5b6e4; color: #211a21; }
+.frt { background: #211a21; color: #4f43ae; padding: 8px; border: 2px solid #4f43ae; margin-top: 8px; font-weight: 600; font-size: 0.8rem; }
+@media(min-width: 600px) { .ck { flex-direction: row; gap: 24px; } .cf { flex: 2; } .cr2 { flex: 1; } }
